@@ -176,12 +176,12 @@ void display(){
 	if (trackballMove)
 		glRotatef(angle, axis[0], axis[1], axis[2]);
 	glEnable( GL_TEXTURE_2D );
-	GLuint text1 = LoadTextureRAW("textures/die1.png",true); //Opposite sides create a sum of 7.
-	GLuint text2 = LoadTextureRAW("textures/die2.png",true);
-	GLuint text3 = LoadTextureRAW("textures/die3.png",true);
-	GLuint text4 = LoadTextureRAW("textures/die4.png",true);
-	GLuint text5 = LoadTextureRAW("textures/die5.png",true);
-	GLuint text6 = LoadTextureRAW("textures/die6.png",true);
+	GLuint text1 = LoadTextureRAW("textures/die1.bmp",true); //Opposite sides create a sum of 7.
+	GLuint text2 = LoadTextureRAW("textures/die2.bmp",true);
+	GLuint text3 = LoadTextureRAW("textures/die3.bmp",true);
+	GLuint text4 = LoadTextureRAW("textures/die4.bmp",true);
+	GLuint text5 = LoadTextureRAW("textures/die5.bmp",true);
+	GLuint text6 = LoadTextureRAW("textures/die6.bmp",true);
 	glBindTexture(GL_TEXTURE_2D,text1);
 	glBegin(GL_QUADS);
 		// Front Face
