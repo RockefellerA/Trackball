@@ -10,7 +10,7 @@ download:
 	sudo apt-get install binutils-gold
 
 compile: Trackball.cpp
-	g++ -lGL -lglut -lGLU Trackball.cpp -o trackball
+	g++ Trackball.cpp -o trackball -lGL -lglut -lGLU
 
 clean:
 	$(RM) trackball
