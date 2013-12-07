@@ -8,13 +8,17 @@ http://www.opengl.org/wiki/Object_Mouse_Trackball
 To compile:
 
 In Mac OS, compile with the following:
+
 g++ test.cpp -o test -framework GLUT -I/System/Library/Frameworks/OpenGL.framework/Headers -framework OpenGLe
 
 In Linux, compile with the provided makefile or the following:
+
 g++ -lGL -lglut -lGLU Trackball.cpp -o trackball
 
-NOTE: If you have never coded in OpenGL before, you will need to run:
+NOTE: If you have never coded in OpenGL before, you will need to run the following:
+
 sudo apt-get install freeglut3 freeglut3-dev
+
 sudo apt-get install binutils-gold
 
 Thanks and enjoy!
