@@ -159,7 +159,7 @@ GLuint LoadTextureRAW( const char * filename, int wrap )
 
     // build our texture mipmaps
     gluBuild2DMipmaps( GL_TEXTURE_2D, 3, width, height,
-                       GL_RGB, GL_UNSIGNED_BYTE, data );
+                       GL_BGR, GL_UNSIGNED_BYTE, data );
 	
 
     // free buffer
