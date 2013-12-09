@@ -1,6 +1,6 @@
 An example of how to draw a cube in 3D space using Glut.
 
-Textures have been mapped to the sides, which gives the cube a visual identity.
+Textures have been mapped to the sides, which gives the cube the visual identity of a die.
 
 The mouse spins the cube in any direction while tied to a central axis.
 
