@@ -12,7 +12,7 @@ To compile:
 
 In Mac OS, if you have an nVidia GPU, compile with the following: 
 
-g++ test.cpp -o test -framework GLUT -I/System/Library/Frameworks/OpenGL.framework/Headers -framework OpenGLe
+g++ Trackball.cpp -o trackball -framework GLUT -I/System/Library/Frameworks/OpenGL.framework/Headers -framework OpenGLe
 
 In Linux, compile with the provided makefile or the following: 
 
